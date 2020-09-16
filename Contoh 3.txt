@@ -1,0 +1,17 @@
+Algoritma menghitung luas lingkaran
+
+Pseudocode:
+
+program hitung_luas_lingkaran
+
+deklarasi
+var phi : float;
+var r,luas:integer;
+algoritma:
+phi <-- 3.14;
+
+read(r); {diinput user}
+
+luas <- phi * r * r;
+
+write(luas);
